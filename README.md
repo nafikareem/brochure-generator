@@ -4,7 +4,6 @@
 
 Generate a markdown brochure for any company website using Llama3.2 and actual clickable links.  
 This project scrapes a company's website, extracts relevant information, and uses a local LLM (Llama3.2 via Ollama) to generate a fun, informative brochure.  
-You can use the app via a **Streamlit UI**.
 
 ---
 
@@ -12,11 +11,6 @@ You can use the app via a **Streamlit UI**.
 
 ---
 
-## Try it online
-
-👉 **[Launch the app on Streamlit Cloud](https://brochure-generator.streamlit.app/)**
-
----
 
 ## Features
 
