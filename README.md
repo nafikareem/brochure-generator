@@ -6,6 +6,10 @@ You can use the app via a **Streamlit UI** and export the result as PDF.
 
 ---
 
+![alt text](img/0510.gif)
+
+---
+
 ## Features
 
 - Scrape landing and relevant pages from any company website.
@@ -91,8 +95,6 @@ Go to [http://localhost:8501](http://localhost:8501) and use the UI to generate 
 
 - **LLM response parsing error:**  
   The LLM sometimes returns non-JSON output. The code tries to extract JSON, but you may need to adjust prompts or parsing logic.
-
----
 
 ---
 
