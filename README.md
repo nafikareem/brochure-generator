@@ -1,5 +1,7 @@
 # 📰 Brochure Generator
 
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen?logo=streamlit)](https://brochure-generator.streamlit.app/)
+
 Generate a markdown brochure for any company website using Llama3.2 and actual clickable links.  
 This project scrapes a company's website, extracts relevant information, and uses a local LLM (Llama3.2 via Ollama) to generate a fun, informative brochure.  
 You can use the app via a **Streamlit UI** and export the result as PDF.
@@ -7,6 +9,12 @@ You can use the app via a **Streamlit UI** and export the result as PDF.
 ---
 
 ![alt text](img/0510.gif)
+
+---
+
+## Try it online
+
+👉 **[Launch the app on Streamlit Cloud](https://brochure-generator.streamlit.app/)**
 
 ---
 
@@ -25,6 +33,22 @@ You can use the app via a **Streamlit UI** and export the result as PDF.
 - Python 3.8+
 - [Ollama](https://ollama.com/) running locally with `llama3.2` model pulled
 - [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) (for PDF export with pdfkit) **OR** [WeasyPrint](https://weasyprint.org/) for pure Python PDF export
+
+### Python packages
+
+```
+pip install -r requirements.txt
+```
+
+Example `requirements.txt`:
+```
+streamlit
+requests
+beautifulsoup4
+markdown
+pdfkit
+# or use weasyprint for pure Python PDF export
+```
 
 ---
 
