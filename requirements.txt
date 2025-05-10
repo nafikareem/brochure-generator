@@ -1,0 +1,5 @@
+beautifulsoup4==4.13.4
+Markdown==3.8
+pdfkit==1.0.0
+Requests==2.32.3
+streamlit==1.45.0
