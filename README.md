@@ -26,22 +26,6 @@ You can use the app via a **Streamlit UI** and export the result as PDF.
 - [Ollama](https://ollama.com/) running locally with `llama3.2` model pulled
 - [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) (for PDF export with pdfkit) **OR** [WeasyPrint](https://weasyprint.org/) for pure Python PDF export
 
-### Python packages
-
-```
-pip install -r requirements.txt
-```
-
-Example `requirements.txt`:
-```
-streamlit
-requests
-beautifulsoup4
-markdown
-pdfkit
-# or use weasyprint for pure Python PDF export
-```
-
 ---
 
 ## Folder Structure
