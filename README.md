@@ -94,10 +94,6 @@ Go to [http://localhost:8501](http://localhost:8501) and use the UI to generate 
 
 ---
 
-## License
-
-MIT
-
 ---
 
 ## Credits
