@@ -4,7 +4,7 @@
 
 Generate a markdown brochure for any company website using Llama3.2 and actual clickable links.  
 This project scrapes a company's website, extracts relevant information, and uses a local LLM (Llama3.2 via Ollama) to generate a fun, informative brochure.  
-You can use the app via a **Streamlit UI** and export the result as PDF.
+You can use the app via a **Streamlit UI**.
 
 ---
 
@@ -24,7 +24,6 @@ You can use the app via a **Streamlit UI** and export the result as PDF.
 - Use Llama3.2 (via Ollama) to generate a markdown brochure.
 - All links (social media, partners, etc.) are real and clickable.
 - Simple Streamlit web UI.
-- Export brochure as PDF.
 
 ---
 
@@ -32,7 +31,6 @@ You can use the app via a **Streamlit UI** and export the result as PDF.
 
 - Python 3.8+
 - [Ollama](https://ollama.com/) running locally with `llama3.2` model pulled
-- [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) (for PDF export with pdfkit) **OR** [WeasyPrint](https://weasyprint.org/) for pure Python PDF export
 
 ### Python packages
 
@@ -46,8 +44,6 @@ streamlit
 requests
 beautifulsoup4
 markdown
-pdfkit
-# or use weasyprint for pure Python PDF export
 ```
 
 ---
