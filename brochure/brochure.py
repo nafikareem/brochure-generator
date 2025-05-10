@@ -1,5 +1,5 @@
 import json
-from .webscraper import Website
+from .webscrapper import Website
 from .llm import chat_with_llama, link_system_prompt
 
 system_prompt = """
